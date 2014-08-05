@@ -12,5 +12,10 @@ enum HelloWorld//连接状态
   ES_RECEIVED,		//接收到了数据
   ES_CLOSING			//连接关闭
 };
-
+enum AnotherHelloWorld//连接状态
+{
+  ES_NONE = 0,			
+  ES_RECEIVED,		//接收到了数据
+  ES_CLOSING			//连接关闭
+};
 
